@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/trial22"
+    android:orientation="vertical">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blackTranslucent1">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            >
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/logo11" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="@string/smart_feedback"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="8dp"
+                android:text="@string/information_privacy"
+                android:textColor="@color/colorPrimary" />
+
+
+
+
+            <EditText
+                android:id="@+id/serviceTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_area"
+                android:hint="@string/service_str"
+                android:paddingStart="16dp"
+                android:paddingTop="28dp"
+                android:paddingBottom="28dp"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="16sp" />
+
+
+            <EditText
+                android:id="@+id/complainTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/button_area"
+                android:hint="@string/compain_str"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:paddingTop="28dp"
+                android:paddingBottom="28dp"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="16sp" />
+
+
+            <EditText
+                android:id="@+id/improveTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/button_area"
+                android:hint="@string/improve_str"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:paddingTop="28dp"
+                android:paddingBottom="28dp"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="4dp"
+                android:text="@string/personalized_feed"
+                android:textColor="@color/white" />
+            <EditText
+                android:id="@+id/nameTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/button_area"
+                android:hint="Name (optional)"
+
+                android:padding="16dp"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="16sp" />
+
+
+            <EditText
+                android:id="@+id/phoneTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/button_area"
+                android:hint="Phone number (optional)"
+                android:inputType="phone"
+                android:padding="16dp"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="16sp" />
+
+
+            <Button
+                android:id="@+id/submit_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/button"
+                android:text="Submit"
+                android:padding="20dp"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Powered By Enigma Analytics"
+                android:layout_margin="8dp"
+                android:textColor="@color/white" />
+        </LinearLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:elevation="4dp"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView3"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="16dp"-->
+<!--            android:drawableLeft="@drawable/ic_round_dehaze_24"-->
+<!--            android:drawablePadding="10dp"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:padding="8dp"-->
+<!--            android:text="Feedback"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView4"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginLeft="16dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:layout_marginEnd="16dp"-->
+<!--            android:layout_marginRight="16dp"-->
+<!--            android:padding="8dp"-->
+<!--            android:text="Dear customer," />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView5"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="16dp"-->
+<!--            android:text="We Would love your Feedback?"-->
+<!--            android:textColor="@color/colorPrimary"-->
+<!--            android:textSize="30sp"-->
+<!--            android:textStyle="bold" />-->
+<!--    </LinearLayout>-->
+</LinearLayout>

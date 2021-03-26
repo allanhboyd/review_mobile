@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Quantum</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="personalized_feed">For personalized follow up, please leave your name and phone number</string>
+    <string name="information_privacy">Information given is treated with utmost confidentiality</string>
+    <string name="smart_feedback">Smart Feedback</string>
+    <string name="service_str">How was the service?</string>
+    <string name="compain_str">Any Complaints?</string>
+    <string name="improve_str">Areas we can improve on?</string>
+</resources>
