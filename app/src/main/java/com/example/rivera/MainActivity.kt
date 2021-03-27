@@ -2,6 +2,7 @@ package com.example.rivera
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
 import com.example.rivera.Api.FeedbackService
 import com.example.rivera.Api.Feedbody
@@ -35,11 +36,12 @@ class MainActivity : AppCompatActivity() {
                 service = serviceTv.text.toString(),
                 complain = complainTv.text.toString(),
                 improve_area = improveTv.text.toString(),
-                org_id = 2
+                org_id = 3
             )
 
             feedbackService.addFeedback(feedbody)
             {
+                Log.d("Response", "${it?.status_code}")
                 if (it != null) {
                     if (it.status!!) {
                         clearText()

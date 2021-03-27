@@ -1,6 +1,7 @@
 package com.example.rivera.Api
 
 import android.os.Handler
+import android.util.Log
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -12,6 +13,7 @@ class FeedbackService {
         retrofit.postFeedback(feedbody).enqueue(
             object :Callback<FeedbackResponse>{
                 override fun onFailure(call: Call<FeedbackResponse>, t: Throwable) {
+                    Log.d("Response", "${t.message}")
                     onResult(null)
                 }
 
