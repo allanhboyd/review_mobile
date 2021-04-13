@@ -6,5 +6,6 @@ data class Feedbody(
     val service:String,
     val complain:String,
     val improve_area:String,
-    val org_id:Int
+    val org_id:Int,
+    val covid_changes:String
 )

@@ -8,4 +8,5 @@
     <string name="service_str">How was the service?</string>
     <string name="compain_str">Any Complaints?</string>
     <string name="improve_str">Areas we can improve on?</string>
+    <string name="covid_changes">Any covid 19 interventions we should implement in serving you?</string>
 </resources>

@@ -70,12 +70,12 @@
                 android:background="@drawable/button_area"
                 android:hint="@string/service_str"
                 android:paddingStart="16dp"
-                android:paddingTop="28dp"
-                android:paddingBottom="28dp"
+                android:paddingTop="24dp"
+                android:paddingBottom="24dp"
                 android:singleLine="true"
                 android:textColor="@color/white"
                 android:textColorHint="@color/colorPrimary"
-                android:textSize="16sp" />
+                 />
 
 
             <EditText
@@ -87,12 +87,12 @@
                 android:hint="@string/compain_str"
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
-                android:paddingTop="28dp"
-                android:paddingBottom="28dp"
+                android:paddingTop="24dp"
+                android:paddingBottom="24dp"
                 android:singleLine="true"
                 android:textColor="@color/white"
                 android:textColorHint="@color/colorPrimary"
-                android:textSize="16sp" />
+                 />
 
 
             <EditText
@@ -104,12 +104,29 @@
                 android:hint="@string/improve_str"
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
-                android:paddingTop="28dp"
-                android:paddingBottom="28dp"
+                android:paddingTop="24dp"
+                android:paddingBottom="24dp"
                 android:singleLine="true"
                 android:textColor="@color/white"
                 android:textColorHint="@color/colorPrimary"
-                android:textSize="16sp" />
+                 />
+
+            <EditText
+                android:id="@+id/covidTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/button_area"
+                android:hint="@string/covid_changes"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:paddingTop="24dp"
+                android:paddingBottom="24dp"
+                android:singleLine="false"
+
+                android:textColor="@color/white"
+                android:textColorHint="@color/colorPrimary"
+                 />
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
@@ -130,7 +147,7 @@
                 android:singleLine="true"
                 android:textColor="@color/white"
                 android:textColorHint="@color/colorPrimary"
-                android:textSize="16sp" />
+                 />
 
 
             <EditText
@@ -145,7 +162,7 @@
                 android:singleLine="true"
                 android:textColor="@color/white"
                 android:textColorHint="@color/colorPrimary"
-                android:textSize="16sp" />
+                 />
 
 
             <Button

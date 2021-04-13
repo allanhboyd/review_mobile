@@ -8,7 +8,7 @@ object FeedbackObject {
     private val client = OkHttpClient.Builder().build()
 
     private val retrofit = Retrofit.Builder()
-        .baseUrl("http://3.143.169.228/api/")
+        .baseUrl("https://api.enigma-analytics.com/api/")
         .addConverterFactory(GsonConverterFactory.create())
         .client(client)
         .build()

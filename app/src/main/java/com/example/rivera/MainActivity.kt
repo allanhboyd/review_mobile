@@ -35,7 +35,8 @@ class MainActivity : AppCompatActivity() {
                 service = serviceTv.text.toString(),
                 complain = complainTv.text.toString(),
                 improve_area = improveTv.text.toString(),
-                org_id = 2
+                org_id = 2,
+                covid_changes = covidTv.text.toString()
             )
 
             feedbackService.addFeedback(feedbody)
@@ -71,5 +72,6 @@ class MainActivity : AppCompatActivity() {
         improveTv.text.clear()
         serviceTv.text.clear()
         complainTv.text.clear()
+        covidTv.text.clear()
     }
 }
