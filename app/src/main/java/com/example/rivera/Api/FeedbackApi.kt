@@ -13,4 +13,7 @@ interface FeedbackApi {
     @POST("feedback")
     fun postFeedback(@Body feedbody: Feedbody): Call<FeedbackResponse>
 
+    @Headers("Content-Type: application/json")
+    @POST("retailer-feedback")
+    fun postRetailerFeedback(@Body retailerFeedbody: RetailerFeedbody): Call<FeedbackResponse>
 }

@@ -27,4 +27,25 @@ class FeedbackService {
 
         )
     }
+
+    fun addRetailerFeedback(retailerFeedbody: RetailerFeedbody, onResult: (FeedbackResponse?) -> Unit){
+        val retrofit = FeedbackObject.buildService(FeedbackApi::class.java)
+        retrofit.postRetailerFeedback(retailerFeedbody).enqueue(
+            object :Callback<FeedbackResponse>{
+                override fun onFailure(call: Call<FeedbackResponse>, t: Throwable) {
+                    onResult(null)
+                }
+
+                override fun onResponse(
+                    call: Call<FeedbackResponse>,
+                    response: Response<FeedbackResponse>
+                ) {
+                    val addedUser = response.body()
+                    onResult(addedUser)
+                }
+
+            }
+
+        )
+    }
 }

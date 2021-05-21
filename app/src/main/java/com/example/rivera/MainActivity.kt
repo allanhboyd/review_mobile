@@ -2,6 +2,7 @@ package com.example.rivera
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.RadioButton
 import android.widget.Toast
 import com.example.rivera.Api.FeedbackService
 import com.example.rivera.Api.Feedbody
@@ -35,7 +36,7 @@ class MainActivity : AppCompatActivity() {
                 service = serviceTv.text.toString(),
                 complain = complainTv.text.toString(),
                 improve_area = improveTv.text.toString(),
-                org_id = 2,
+                org_id = 4,
                 covid_changes = covidTv.text.toString()
             )
 
@@ -74,4 +75,6 @@ class MainActivity : AppCompatActivity() {
         complainTv.text.clear()
         covidTv.text.clear()
     }
+
+
 }
