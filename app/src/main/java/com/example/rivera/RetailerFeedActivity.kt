@@ -2,7 +2,10 @@ package com.example.rivera
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.TextUtils
+import android.widget.EditText
 import android.widget.RadioButton
+import android.widget.RadioGroup
 import android.widget.Toast
 import com.example.rivera.Api.FeedbackService
 import com.example.rivera.Api.RetailerFeedbody
@@ -16,6 +19,8 @@ class RetailerFeedActivity : AppCompatActivity() {
 
         val feedbackService = FeedbackService();
 
+        toasters()
+
         submitBt.setOnClickListener {
             val view = layoutInflater.inflate(R.layout.bottom_sheet, null)
             val dialog = BottomSheetDialog(this)
@@ -28,6 +33,7 @@ class RetailerFeedActivity : AppCompatActivity() {
             val accessId = access_group!!.checkedRadioButtonId
             val recommendId = recommend_group!!.checkedRadioButtonId
             val sourceId = source_group!!.checkedRadioButtonId
+            val shopId = shop_group!!.checkedRadioButtonId
 
             val retailerFeedbody = RetailerFeedbody(
                 price_rate = isNull(priceId),
@@ -38,7 +44,10 @@ class RetailerFeedActivity : AppCompatActivity() {
                 org_id = 5,
                 areas = areastv.text.toString(),
                 stock = suggestiontv.text.toString(),
-                source = isNull(sourceId)
+                source = isNull(sourceId),
+                shopping = isNull(shopId),
+                name = tvNull(nameTv),
+                phone = tvNull(phoneTv)
             );
 
             feedbackService.addRetailerFeedback(retailerFeedbody)
@@ -68,19 +77,64 @@ class RetailerFeedActivity : AppCompatActivity() {
         suggestiontv.text.clear()
         recommend_group.clearCheck()
         source_group.clearCheck()
+        nameTv.text.clear()
+        phoneTv.text.clear()
+        shop_group.clearCheck()
+
     }
 
     fun isNull(id:Int): String
     {
-        if (id != -1)
-        {
+        return if (id != -1) {
             val valString = findViewById<RadioButton>(id)!!
-            return valString.text.toString()
-        }
-        else
-        {
-            return ""
+            valString.text.toString()
+        } else {
+            ""
         }
     }
+
+    fun tvNull(view:EditText) : String
+    {
+        return if (!TextUtils.isEmpty(view.text)) {
+            Toast.makeText(this, "${view.text.toString()}", Toast.LENGTH_SHORT).show()
+            view.text.toString()
+        } else {
+            ""
+        }
+
+    }
+
+
+    fun radioListener(view : RadioGroup)
+    {
+        if (view.checkedRadioButtonId == -1)
+        {
+            // no radio buttons are checked
+            view.setOnCheckedChangeListener(
+                RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+                    Toast.makeText(this, "${isNull(view!!.checkedRadioButtonId)}", Toast.LENGTH_SHORT).show()
+                    isNull(checkedId)
+                }
+            )
+        }
+
+    }
+
+    fun toasters()
+    {
+        radioListener(price_group)
+        radioListener(quality_group)
+        radioListener(store_group)
+        radioListener(access_group)
+    }
+
+    fun openDialog()
+    {
+        val view = layoutInflater.inflate(R.layout.reason_sheet, null)
+        val dialog = BottomSheetDialog(this)
+        dialog.setContentView(view)
+        dialog.show()
+    }
+
 
 }

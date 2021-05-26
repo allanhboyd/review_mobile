@@ -9,82 +9,12 @@
     <string name="compain_str">Any Complaints?</string>
     <string name="improve_str">Areas we can improve on?</string>
     <string name="covid_changes">Any covid 19 interventions we should implement in serving you?</string>
-    <string name="highly_dissatisfied">Highly Dissatisfied</string>
-    <string name="dissatisfied">Dissatisfied</string>
-    <string name="neutral">Neutral</string>
-    <string name="satisfied">Satisfied</string>
-    <string name="highly_satisfied">Highly Satisfied</string>
 
-    <string-array name="pricing_array">
-        <item>How satisfied are you with the pricing?</item>
-        <item>Highly Dissatisfied</item>
-        <item>Dissatisfied</item>
-        <item>Neutral</item>
-        <item>Satisfied</item>
-        <item>Highly Satisfied</item>
-    </string-array>
-
-    <string-array name="promotion_array">
-        <item>How did you learn about our store?</item>
-        <item>Social Media</item>
-        <item>Billboards</item>
-        <item>Celebrities</item>
-        <item>Referrals</item>
-    </string-array>
-
-    <string-array name="product_array">
-        <item>How satisfied are you with quality of items in the store?</item>
-        <item>Highly Dissatisfied</item>
-        <item>Dissatisfied</item>
-        <item>Neutral</item>
-        <item>Satisfied</item>
-        <item>Highly Satisfied</item>
-    </string-array>
-
-    <string-array name="store_array">
-        <item>How helpful was the store attendant?</item>
-        <item>Very Unhelpful</item>
-        <item>Unhelpful</item>
-        <item>Neutral</item>
-        <item>Helpful</item>
-        <item>Very Helpful</item>
-    </string-array>
-
-    <string-array name="prices_array">
-        <item>Prices offered</item>
-        <item>Highly Dissatisfied</item>
-        <item>Dissatisfied</item>
-        <item>Neutral</item>
-        <item>Satisfied</item>
-        <item>Highly Satisfied</item>
-    </string-array>
-
-    <string-array name="quality_array">
-        <item>Quality of our brands</item>
-        <item>Highly Dissatisfied</item>
-        <item>Dissatisfied</item>
-        <item>Neutral</item>
-        <item>Satisfied</item>
-        <item>Highly Satisfied</item>
-    </string-array>
-
-    <string-array name="storeatte_array">
-        <item>Store attendant support</item>
-        <item>Highly Dissatisfied</item>
-        <item>Dissatisfied</item>
-        <item>Neutral</item>
-        <item>Satisfied</item>
-        <item>Highly Satisfied</item>
-    </string-array>
-
-    <string-array name="access_array">
-        <item>Store accessibility </item>
-        <item>Highly Dissatisfied</item>
-        <item>Dissatisfied</item>
-        <item>Neutral</item>
-        <item>Satisfied</item>
-        <item>Highly Satisfied</item>
-    </string-array>
+    <string name="highly_dissatisfied">👎👎highly dissatisfied</string>
+    <string name="dissatisfied">&#128078; Dissatisfied</string>
+    <string name="neutral">&#129335; &#129335; Neutral</string>
+    <string name="satisfied">&#128077; Satisfied</string>
+    <string name="highly_satisfied">&#128077; &#128077; Highly Satisfied</string>
 
     <string-array name="recommend_array">
         <item>How likely are you to recommend the store to others?</item>

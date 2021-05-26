@@ -9,5 +9,8 @@ data class RetailerFeedbody(
     val org_id:Int,
     val areas:String?="",
     val stock:String?="",
-    val source:String?=""
+    val source:String?="",
+    val shopping:String?="",
+    val name:String?="",
+    val phone:String?=""
 )

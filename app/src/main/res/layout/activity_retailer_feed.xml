@@ -78,7 +78,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
-                android:text="How Satisfied are you with?"
+                android:text="How satisfied are you with?"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -118,34 +118,39 @@
                             android:textStyle="bold" />
 
                         <RadioButton
+                            android:buttonTint="@color/colorRadio"
                             android:id="@+id/highly_dissatisfied1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Highly Dissatisfied" />
+                            android:text="@string/highly_dissatisfied" />
 
                         <RadioButton
+                            android:buttonTint="@color/colorRadio"
                             android:id="@+id/dissatisfied1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Dissatisfied" />
+                            android:text="@string/dissatisfied" />
 
                         <RadioButton
+                            android:buttonTint="@color/colorRadio"
                             android:id="@+id/neutral1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Neutral" />
+                            android:text="@string/neutral" />
 
                         <RadioButton
+                            android:buttonTint="@color/colorRadio"
                             android:id="@+id/satisfied1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Satisfied" />
+                            android:text="@string/satisfied" />
 
                         <RadioButton
+                            android:buttonTint="@color/colorRadio"
                             android:id="@+id/highly_satisfied1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Highly Satisfied" />
+                            android:text="@string/highly_satisfied" />
                     </RadioGroup>
                 </LinearLayout>
 
@@ -181,34 +186,39 @@
                             android:textStyle="bold" />
 
                         <RadioButton
+                            android:buttonTint="@color/colorRadio"
                             android:id="@+id/highly_disssatisfied"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Highly Dissatisfied" />
+                            android:text="@string/highly_dissatisfied" />
 
                         <RadioButton
+                            android:buttonTint="@color/colorRadio"
                             android:id="@+id/dissatisfied"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Dissatisfied" />
+                            android:text="@string/dissatisfied" />
 
                         <RadioButton
+                            android:buttonTint="@color/colorRadio"
                             android:id="@+id/neutral"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Neutral" />
+                            android:text="@string/neutral" />
 
                         <RadioButton
+                            android:buttonTint="@color/colorRadio"
                             android:id="@+id/satisfied"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Satisfied" />
+                            android:text="@string/satisfied" />
 
                         <RadioButton
+                            android:buttonTint="@color/colorRadio"
                             android:id="@+id/highly_satisfied"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Highly Satisfied" />
+                            android:text="@string/highly_satisfied" />
                     </RadioGroup>
                 </LinearLayout>
 
@@ -249,34 +259,39 @@
                             android:textStyle="bold" />
 
                         <RadioButton
+                            android:buttonTint="@color/colorRadio"
                             android:id="@+id/highly_dissatisfied2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Highly Dissatisfied" />
+                            android:text="@string/highly_dissatisfied" />
 
                         <RadioButton
+                            android:buttonTint="@color/colorRadio"
                             android:id="@+id/dissatisfied2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Dissatisfied" />
+                            android:text="@string/dissatisfied" />
 
                         <RadioButton
+                            android:buttonTint="@color/colorRadio"
                             android:id="@+id/neutral2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Neutral" />
+                            android:text="@string/neutral" />
 
                         <RadioButton
+                            android:buttonTint="@color/colorRadio"
                             android:id="@+id/satisfied12"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Satisfied" />
+                            android:text="@string/satisfied" />
 
                         <RadioButton
+                            android:buttonTint="@color/colorRadio"
                             android:id="@+id/highly_satisfied2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Highly Satisfied" />
+                            android:text="@string/highly_satisfied" />
                     </RadioGroup>
                 </LinearLayout>
 
@@ -310,34 +325,39 @@
                             android:textStyle="bold" />
 
                         <RadioButton
+                            android:buttonTint="@color/colorRadio"
                             android:id="@+id/highly_dissatisfied3"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Highly Dissatisfied" />
+                            android:text="@string/highly_dissatisfied" />
 
                         <RadioButton
+                            android:buttonTint="@color/colorRadio"
                             android:id="@+id/dissatisfied3"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Dissatisfied" />
+                            android:text="@string/dissatisfied" />
 
                         <RadioButton
+                            android:buttonTint="@color/colorRadio"
                             android:id="@+id/neutral3"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Neutral" />
+                            android:text="@string/neutral" />
 
                         <RadioButton
+                            android:buttonTint="@color/colorRadio"
                             android:id="@+id/satisfied3"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Satisfied" />
+                            android:text="@string/satisfied" />
 
                         <RadioButton
+                            android:buttonTint="@color/colorRadio"
                             android:id="@+id/highly_satisfied3"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Highly Satisfied" />
+                            android:text="@string/highly_satisfied" />
                     </RadioGroup>
                 </LinearLayout>
 
@@ -385,36 +405,42 @@
 
 
                     <RadioButton
+                        android:buttonTint="@color/colorRadio"
                         android:id="@+id/fb"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Facebook" />
 
                     <RadioButton
+                        android:buttonTint="@color/colorRadio"
                         android:id="@+id/insta"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Instagram" />
 
                     <RadioButton
+                        android:buttonTint="@color/colorRadio"
                         android:id="@+id/twitter"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Twitter" />
 
                     <RadioButton
+                        android:buttonTint="@color/colorRadio"
                         android:id="@+id/wof"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Word of mouth" />
 
                     <RadioButton
+                        android:buttonTint="@color/colorRadio"
                         android:id="@+id/bb"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Billboards" />
 
                     <RadioButton
+                        android:buttonTint="@color/colorRadio"
                         android:id="@+id/celeb"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -474,66 +500,111 @@
                     android:padding="8dp">
 
                     <RadioButton
+                        android:buttonTint="@color/colorRadio"
                         android:id="@+id/one"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="1" />
 
                     <RadioButton
+                        android:buttonTint="@color/colorRadio"
                         android:id="@+id/two"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="2" />
 
                     <RadioButton
+                        android:buttonTint="@color/colorRadio"
                         android:id="@+id/three"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="3" />
 
                     <RadioButton
+                        android:buttonTint="@color/colorRadio"
                         android:id="@+id/four"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="4" />
 
                     <RadioButton
+                        android:buttonTint="@color/colorRadio"
                         android:id="@+id/five"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="5" />
 
                     <RadioButton
+                        android:buttonTint="@color/colorRadio"
                         android:id="@+id/six"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="6" />
 
                     <RadioButton
+                        android:buttonTint="@color/colorRadio"
                         android:id="@+id/seven"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="7" />
 
                     <RadioButton
+                        android:buttonTint="@color/colorRadio"
                         android:id="@+id/eight"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="8" />
 
                     <RadioButton
+                        android:buttonTint="@color/colorRadio"
                         android:id="@+id/nine"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="9" />
 
                     <RadioButton
+                        android:buttonTint="@color/colorRadio"
                         android:id="@+id/ten"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="10" />
                 </RadioGroup>
 
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="What is your preferred way of shopping?"
+                    android:background="@drawable/text_area"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+                <RadioGroup
+                    android:id="@+id/shop_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+
+
+
+                    <RadioButton
+                        android:buttonTint="@color/colorRadio"
+                        android:id="@+id/in_store"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="In-store" />
+
+                    <RadioButton
+                        android:buttonTint="@color/colorRadio"
+                        android:id="@+id/online"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Online" />
+
+                </RadioGroup>
             </LinearLayout>
 
             <LinearLayout
@@ -560,6 +631,28 @@
                     android:background="@drawable/text_area"
                     android:hint="Suggestions on what we should stock?"
                     android:padding="16dp" />
+
+                <EditText
+                    android:id="@+id/nameTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/text_area"
+                    android:hint="Your name (optional)"
+                    android:padding="16dp" />
+
+
+                <EditText
+                    android:id="@+id/phoneTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/text_area"
+                    android:hint="Your phone number (optional)"
+                    android:padding="16dp" />
+
 
             </LinearLayout>
 
